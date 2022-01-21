@@ -44,7 +44,7 @@ public class Graph {
     public void displaySolutionPath() {
         Node m = solutionNode;
         while (m != null) {
-            System.out.print(m.index + "<----");
+            System.out.print(m.data + "<----");
             m = m.parentNode;
         }
         System.out.println("null");

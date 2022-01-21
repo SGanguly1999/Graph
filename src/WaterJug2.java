@@ -11,7 +11,7 @@ public class WaterJug2 extends Graph{
         graph.list.get(0).data = new WaterJugData(0,0);
         map.put("00",0);
         graph.goalNode = new WaterJugData(0,4);
-        Search.dfs(graph,0);
+        Search.ibs(graph,0);
         graph.displaySolutionPath();
     }
 

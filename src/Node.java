@@ -24,6 +24,7 @@ public class Node {
         edgeValues = new ArrayList<Integer>();
     }
     public String toString() {
-        return ""+data;
+       return ""+data;
+        //return "("+index+","+goal_cost+")";
     }
 }

@@ -9,6 +9,6 @@ public class Test2 {
         graph.addEdge(2, 1, 1);
         Search.uniformCostSearch(graph, 0);
         graph.displaySolutionPath();
-
+        System.out.println("Solution cost--->>"+graph.solutionNode.path_cost);
     }
 }

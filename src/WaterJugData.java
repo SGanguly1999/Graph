@@ -16,6 +16,6 @@ public class WaterJugData extends Data {
             return false;
     }
     public String toString(){
-        return "\""+this.x+" "+this.y+"\"";
+        return "("+this.x+", "+this.y+")";
     }
 }
